@@ -1,0 +1,12 @@
+create database dados;
+
+use dados;
+
+create table monitoramento(
+id int auto_increment primary key,
+cpu decimal(3,2),
+disco int,
+memoria decimal(4,2)
+);
+
+select * from monitoramento;
